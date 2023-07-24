@@ -127,14 +127,6 @@ def handle_joystick_input():
 
     return jsonify({'message': 'Joystick input handled successfully!'})
 
-@app.route('/assign_buttons', methods=['POST'])
-def assign_buttons():
-    # ... (previous code)
-
-@app.route('/handle_joystick_input', methods=['POST'])
-def handle_joystick_input():
-    # ... (previous code)
-
 @app.route('/set_phone_key', methods=['POST'])
 def set_phone_key():
     data = request.get_json()
