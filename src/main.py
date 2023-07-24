@@ -5,6 +5,7 @@ from scoring_system import Match
 from joystick import Joystick
 from phone import Phone
 from display import Display
+from config import MYSQL_HOST, MYSQL_USER, MYSQL_PASSWORD, MYSQL_DB
 
 app = Flask(__name__)
 
